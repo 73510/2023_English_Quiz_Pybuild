@@ -1,0 +1,34 @@
+
+{
+    "#new_shape_style":
+    {
+       "misc":
+       {
+          "shape": "rectangle",
+          "border_width": "2",
+          "shadow_width": "1"
+       }
+    },
+ 
+    "button"
+    {
+       "prototype": "#new_shape_style",
+       "font":
+        {
+            "name": "malgun",
+            "size": "12",
+            "regular_resource": {
+                 "resource": "malgun.ttf"
+            }
+        }
+    },
+ 
+    "horizontal_slider"
+    {
+       "prototype": "#new_shape_style",
+       "misc":
+       {
+          "enable_arrow_buttons": 0
+       }
+    }
+ }
